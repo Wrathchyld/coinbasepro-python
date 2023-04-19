@@ -7,7 +7,7 @@
 #    docker run -it coinbasepro-python
 
 # Latest version of ubuntu
-FROM ubuntu:rolling
+FROM ubuntu:22.10
 
 # Install system packages
 RUN apt-get update && \
